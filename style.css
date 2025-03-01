@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+/*
+***** Reset *****
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Serve para fazer a inclusão do padding e da borda na largura e altura */
+}
+
+/*
+***** Formatações Gerais *****
+*/
+
+html, body {
+    background-color: rgba(230, 230, 230, 0.467);
+}
+
+/*
+***** Formatações Cabeçalho *****
+*/
+
+h1 {
+    text-align: center;
+    padding: 25px 0 40px 0;
+    font: normal bolder 40px arial, helvetica, sans-serif;
+}
+
+.span1 {
+    color: black;
+}
+
+.span2 {
+    color: white;
+}
+
+/*
+***** Formatações Menu *****
+*/
+
+header {
+    background-color: rgb(230, 203, 0);
+    padding: 30px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    /* float: left; */
+    display: inline;
+    padding: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+
+header nav ul li a:hover {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.43);
+}
+
+/*
+***** Formatações Parte Principal *****
+*/
+
+main {
+    width: 900px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#principal {
+    padding: 15px;
+}
+
+#area-postagem, #area-lateral {
+    background-color: white;        
+}
+
+#area-postagem {
+    border-radius: 5px;
+    width: 650px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#area-lateral {
+    border-radius: 5px;
+    width: 200px;
+    float: right;
+    right: 20px;
+}
+
+h2 {
+    padding: 20px 0 0 10px;
+    color: rgb(230, 203, 0);
+}
+
+h3 {
+    padding: 0 0 10px 10px;
+}
+
+img {
+    padding: 10px;
+    width: 600px;
+}
+
+#area-postagem p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.leia-mais {
+    text-decoration: none;
+    color: rgb(0, 61, 110);
+    padding: 10px;
+}
+
+/*
+***** Formatações Parte Lateral *****
+*/
+
+#area-lateral {
+    padding: 15px 5px 10px 5px;
+}
+
+#area-lateral .conteudo1 {
+    padding: 0 0 10px 0;
+}
+
+#area-lateral h3 {
+    text-align: left;
+}
+
+#area-lateral .conteudo {
+    padding: 10px 10px 5px 10px;
+}
+
+#area-lateral a {
+    color: rgb(230, 203, 0);
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*
+***** Formatações Rodapé *****
+*/
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.646);
+    font: normal bold 1em arial, helvetica, sans-serif;
+}
